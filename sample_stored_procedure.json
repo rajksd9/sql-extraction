@@ -1,0 +1,1088 @@
+[
+    {
+        "statement_id": 1,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_LU_TIME"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            }
+        ]
+    },
+    {
+        "statement_id": 2,
+        "statement_type": "update",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_LU_TIME"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            }
+        ]
+    },
+    {
+        "statement_id": 3,
+        "statement_type": "update",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_LU_TIME"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            }
+        ]
+    },
+    {
+        "statement_id": 4,
+        "statement_type": "update",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_LU_TIME"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "VT_PDA_LU_TIME"
+            }
+        ]
+    },
+    {
+        "statement_id": 5,
+        "statement_type": "update",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_LU_TIME"
+            }
+        ]
+    },
+    {
+        "statement_id": 7,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "from",
+                "source_table_name": "VT_PDA_LU_TIME"
+            }
+        ]
+    },
+    {
+        "statement_id": 9,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "from",
+                "source_table_name": "TEMP_CMS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "from",
+                "source_table_name": "TEMP_MARKETING"
+            }
+        ]
+    },
+    {
+        "statement_id": 10,
+        "statement_type": "update",
+        "table_name": [
+            {
+                "target_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "from",
+                "source_table_name": "TEMP_CMS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "TEMP_MARKETING"
+            }
+        ]
+    },
+    {
+        "statement_id": 11,
+        "statement_type": "update",
+        "table_name": [
+            {
+                "target_table_name": "TEMP_MARKETING"
+            }
+        ]
+    },
+    {
+        "statement_id": 13,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_LU_OFFER"
+            },
+            {
+                "type": "from",
+                "source_table_name": "TEMP_CMS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            }
+        ]
+    },
+    {
+        "statement_id": 14,
+        "statement_type": "update",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_LU_OFFER"
+            },
+            {
+                "type": "from",
+                "source_table_name": "VT_PDA_LU_OFFER"
+            }
+        ]
+    },
+    {
+        "statement_id": 15,
+        "statement_type": "update",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_LU_OFFER"
+            }
+        ]
+    },
+    {
+        "statement_id": 17,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "from",
+                "source_table_name": "VT_PDA_LU_OFFER"
+            }
+        ]
+    },
+    {
+        "statement_id": 19,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_LU_OFFER_UPCS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_CMS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "TEMP_MARKETING"
+            }
+        ]
+    },
+    {
+        "statement_id": 20,
+        "statement_type": "update",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_LU_OFFER_UPCS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "VT_PDA_LU_OFFER"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            }
+        ]
+    },
+    {
+        "statement_id": 21,
+        "statement_type": "update",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_LU_OFFER_UPCS"
+            }
+        ]
+    },
+    {
+        "statement_id": 23,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "from",
+                "source_table_name": "VT_PDA_LU_OFFER_UPCS"
+            }
+        ]
+    },
+    {
+        "statement_id": 26,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_OFFER_STORE_SCAN"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            }
+        ]
+    },
+    {
+        "statement_id": 28,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "from",
+                "source_table_name": "VT_PDA_OFFER_STORE_SCAN"
+            }
+        ]
+    },
+    {
+        "statement_id": 31,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_HH_OFFER_SALES"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            }
+        ]
+    },
+    {
+        "statement_id": 32,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_HH_OFFER_SALES"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            }
+        ]
+    },
+    {
+        "statement_id": 33,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_HH_OFFER_SALES"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            }
+        ]
+    },
+    {
+        "statement_id": 34,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_HH_OFFER_SALES"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "join",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            }
+        ]
+    },
+    {
+        "statement_id": 36,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "from",
+                "source_table_name": "VT_PDA_HH_OFFER_SALES"
+            }
+        ]
+    },
+    {
+        "statement_id": 40,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_HH_CAT_WEEK"
+            },
+            {
+                "type": "from",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            }
+        ]
+    },
+    {
+        "statement_id": 41,
+        "statement_type": "create",
+        "table_name": [
+            {
+                "type": "from",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            }
+        ]
+    },
+    {
+        "statement_id": 43,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_MULT_PURCH_CYCLE"
+            },
+            {
+                "type": "from",
+                "source_table_name": "VT_PDA_HH_CAT_WEEK"
+            },
+            {
+                "type": "join",
+                "source_table_name": "VT_PDA_HH_CAT_WEEK"
+            },
+            {
+                "type": "join",
+                "source_table_name": "VT_MULT_CAT_PURCH"
+            }
+        ]
+    },
+    {
+        "statement_id": 45,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_PURCH_CYCLE"
+            },
+            {
+                "type": "from",
+                "source_table_name": "VT_PDA_HH_CAT_WEEK"
+            }
+        ]
+    },
+    {
+        "statement_id": 46,
+        "statement_type": "update",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_PURCH_CYCLE"
+            },
+            {
+                "type": "from",
+                "source_table_name": "VT_PDA_MULT_PURCH_CYCLE"
+            }
+        ]
+    },
+    {
+        "statement_id": 47,
+        "statement_type": "update",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_PURCH_CYCLE"
+            },
+            {
+                "type": "from",
+                "source_table_name": "VT_PDA_PURCH_CYCLE"
+            },
+            {
+                "type": "from",
+                "source_table_name": "VT_PDA_MULT_PURCH_CYCLE"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            }
+        ]
+    },
+    {
+        "statement_id": 48,
+        "statement_type": "update",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_PURCH_CYCLE"
+            }
+        ]
+    },
+    {
+        "statement_id": 49,
+        "statement_type": "update",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_PURCH_CYCLE"
+            }
+        ]
+    },
+    {
+        "statement_id": 51,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "from",
+                "source_table_name": "VT_PDA_PURCH_CYCLE"
+            }
+        ]
+    },
+    {
+        "statement_id": 52,
+        "statement_type": "create",
+        "table_name": [
+            {
+                "type": "from",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            }
+        ]
+    },
+    {
+        "statement_id": 54,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_SEASONALITY"
+            },
+            {
+                "type": "from",
+                "source_table_name": "VT_CAT_DIV_WK_SALES"
+            },
+            {
+                "type": "from",
+                "source_table_name": "VT_CAT_DIV_WK_SALES"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            }
+        ]
+    },
+    {
+        "statement_id": 56,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "from",
+                "source_table_name": "VT_PDA_SEASONALITY"
+            }
+        ]
+    },
+    {
+        "statement_id": 59,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_ATTRIBUTE_BUYERS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            }
+        ]
+    },
+    {
+        "statement_id": 61,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "TEMP_MARKETING"
+            },
+            {
+                "type": "from",
+                "source_table_name": "TEMP_CMS"
+            }
+        ]
+    },
+    {
+        "statement_id": 62,
+        "statement_type": "create",
+        "table_name": [
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            }
+        ]
+    },
+    {
+        "statement_id": 63,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_HH_UPC_WKLY_SALES"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            }
+        ]
+    },
+    {
+        "statement_id": 64,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_HH_UPC_WKLY_SALES"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "join",
+                "source_table_name": "DW_DSS"
+            },
+            {
+                "type": "from",
+                "source_table_name": "DW_DSS"
+            }
+        ]
+    },
+    {
+        "statement_id": 65,
+        "statement_type": "update",
+        "table_name": [
+            {
+                "target_table_name": "VT_PDA_HH_UPC_WKLY_SALES"
+            }
+        ]
+    },
+    {
+        "statement_id": 67,
+        "statement_type": "insert",
+        "table_name": [
+            {
+                "target_table_name": "TEMP_MKTG"
+            },
+            {
+                "type": "from",
+                "source_table_name": "VT_PDA_HH_UPC_WKLY_SALES"
+            }
+        ]
+    }
+]
